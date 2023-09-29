@@ -82,7 +82,7 @@ const Navbar = () => {
         { stitle: "CLOUD SOLUTIONS" },
       ],
     },
-    { title: "Blog", path: "/" },
+    { title: "Blog", path: "/blog" },
     {
       title: "Case Study",
       path: "/",
@@ -93,7 +93,7 @@ const Navbar = () => {
         { stitle: "Ovoo Movie" },
       ],
     },
-    { title: "Contact", path: "/" },
+    { title: "Contact", path: "/contact" },
   ];
 
   

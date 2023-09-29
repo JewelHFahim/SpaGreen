@@ -9,7 +9,7 @@ const MobileMenu = ({ drawer, toggleDrawer }) => {
   
   const menus = [
     { title: "Home", path: "/" },
-    { title: "About Us", path: "/" },
+    { title: "About Us", path: "/about-us" },
     {
       title: "Projects",
       path: "/",
@@ -33,7 +33,7 @@ const MobileMenu = ({ drawer, toggleDrawer }) => {
         { stitle: "CLOUD SOLUTIONS" },
       ],
     },
-    { title: "Blog", path: "/" },
+    { title: "Blog", path: "/blog" },
     {
       title: "Case Study",
       path: "/",
@@ -44,7 +44,7 @@ const MobileMenu = ({ drawer, toggleDrawer }) => {
         { stitle: "Ovoo Movie" },
       ],
     },
-    { title: "Contact", path: "/" },
+    { title: "Contact", path: "/contact" },
   ];
 
   const [openSubmenus, setOpenSubmenus] = useState({});
