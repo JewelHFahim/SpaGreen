@@ -1,0 +1,19 @@
+.ClientReview {
+  background-image: url("../../../assets/Background-Map-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  margin: -40px -10px 0px -10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+    
+  }
+  

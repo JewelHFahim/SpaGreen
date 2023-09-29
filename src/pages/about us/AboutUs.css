@@ -1,0 +1,10 @@
+.servedClients img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.servedClients:hover img {
+  filter: grayscale(0%);
+}

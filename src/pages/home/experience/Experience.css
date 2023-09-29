@@ -1,0 +1,18 @@
+.experience-container {
+  background-image: url("../../../assets//Overlay-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.vision_mission:hover h2{
+  color: #1bdb68;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .experience-container {
+      background-image: none;
+  }
+}

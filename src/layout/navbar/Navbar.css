@@ -1,0 +1,27 @@
+.sticky-nav {
+  animation: sticky-nav 300ms;
+}
+
+@keyframes sticky-nav {
+  0% {
+    transform: translateY(-6em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Menu Hover Animation */
+
+/* Apply the animation to main menu items' summary elements */
+.hoverAnimation {
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  transition: border-bottom 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+ .hoverAnimation:hover {
+  color: #1bdb68;
+  border-bottom: 4px solid #1bdb68;
+}

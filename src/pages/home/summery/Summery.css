@@ -1,0 +1,13 @@
+.summery-container {
+  background-image: url('../../../assets/LTD.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .summery-container{
+      background-image: none;
+  }
+}

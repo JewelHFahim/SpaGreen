@@ -1,0 +1,7 @@
+.headersection-container {
+  background: linear-gradient(
+    180deg,
+    rgba(199, 222, 196, 1) 0%,
+    rgba(255, 255, 255, 1) 60%
+  );
+}
