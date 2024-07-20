@@ -50,9 +50,14 @@ const Blog = () => {
   const responsivePadding = "p-5 md:px-[40px] lg:px-[60px] xl:px-[120px]";
 
   return (
-    <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 ${responsivePadding}`}>
+    <div
+      className={`grid grid-cols-1 lg:grid-cols-2 gap-8 ${responsivePadding}`}
+    >
       {datas.map((item, i) => (
-        <section key={i} className="border shadow-md hover:scale-[1.03] transform duration-200 hover:shadow-lg">
+        <section
+          key={i}
+          className="border shadow-md hover:scale-[1.03] transform duration-200 hover:shadow-lg"
+        >
           <div className="relative">
             <img src={item.img} alt="" className="w-full h-full object-cover" />
             <p className="px-4 py-2 bg-secondary text-white uppercase font-semibold w-[200px] absolute -bottom-4 left-6">
